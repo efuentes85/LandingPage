@@ -9,7 +9,12 @@ import "bootstrap";
 import "../styles/index.scss";
 
 //import your own components
-import { Home } from "./component/home.js";
+import { Nav } from "./component/nav.js";
+import { Jumbo } from "./component/jumbo.js";
+import { Cards } from "./component/cards.js";
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<Nav />, document.querySelector("#nav"));
+ReactDOM.render(<Jumbo />, document.querySelector("#jumbo"));
+ReactDOM.render(<Cards />, document.querySelector("#cardholder"));
+ReactDOM.render(<Cards />, document.querySelector("#cardholder"));
