@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import PropType from "prop-types";
 
 export class Jumbo extends React.Component {
 	render() {
