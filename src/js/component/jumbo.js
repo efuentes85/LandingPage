@@ -5,7 +5,7 @@ import PropType from "prop-types";
 export class Jumbo extends React.Component {
 	render() {
 		return (
-			<header className="jumbotron my-4">
+			<header className="jumbotron text-center my-4">
 				<h1 className="display-3">A Warm Welcome!</h1>
 				<p className="lead">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit.

@@ -9,7 +9,11 @@ export class Home extends React.Component {
 			<div>
 				<Nav />
 				<Jumbo />
-				<Cards />
+				<div className="container">
+					<div className="row">
+						<Cards />
+					</div>
+				</div>
 			</div>
 		);
 	}
